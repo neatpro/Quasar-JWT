@@ -22,3 +22,5 @@ $ npm install
 
 $ quasar dev
 ```
+
+> Backend using Laravel Framework https://github.com/neatpro/Laravel-JWT
