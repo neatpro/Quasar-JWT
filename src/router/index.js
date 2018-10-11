@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from './../store/index'
-import {sync} from 'vuex-router-sync'
+import { sync } from 'vuex-router-sync'
 import routes from './routes'
 
 Vue.use(VueRouter)

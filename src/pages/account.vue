@@ -40,10 +40,10 @@ export default {
     save () {
       this.axios.post('/auth/update', this.form)
         .then((response) => {
-          this.$q.notify({message: 'Account updated ', timeout: 2000, color: 'positive'})
+          this.$q.notify({ message: 'Account updated ', timeout: 2000, color: 'positive' })
         })
         .catch((error) => {
-          this.$q.notify({message: 'Error: ' + error.response.data.error, timeout: 2000, color: 'negative'})
+          this.$q.notify({ message: 'Error: ' + error.response.data.error, timeout: 2000, color: 'negative' })
         })
     }
   }
