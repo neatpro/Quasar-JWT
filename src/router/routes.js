@@ -8,7 +8,7 @@ export default [
   {
     path: '/',
     component: () => import('layouts/default'),
-    meta: {auth: true},
+    meta: { auth: true },
     children: [
       { path: '', component: () => import('pages/index') },
       { path: '/account', name: 'account', component: () => import('pages/account') }
